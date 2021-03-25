@@ -1,5 +1,5 @@
  var todaydate = new Date();
- var month = todaydate.getMonth() + 1;
+ var month = todaydate.getMonth();
  var day = todaydate.getDate();
  var year = todaydate.getFullYear();
  var datestring = month + "/" + day + "/" + year;
