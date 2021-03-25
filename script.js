@@ -1,3 +1,3 @@
 
-document.getElementById('demo').value= Date();
+document.getElementById('demo').value= new Date();
 
