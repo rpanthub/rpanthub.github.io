@@ -5,7 +5,7 @@
  var datestring = month + "/" + day + "/" + year;
  window.onload = function(){
  //document.getElementById("date").value = todaydate;
-  document.getElementById("date").innerHTML = todaydate;
+  document.getElementById("date").innerHTML = "Today is " + todaydate;
  }
 
 
