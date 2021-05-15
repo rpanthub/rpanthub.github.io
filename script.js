@@ -4,7 +4,7 @@
  var year = todaydate.getFullYear();
  var datestring = month + "/" + day + "/" + year;
  window.onload = function(){
- document.getElementById("date").value = datestring;
+ document.getElementById("date").value = todaydate;
  }
 
 
