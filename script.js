@@ -1,4 +1,4 @@
- var todaydate = new Date();
+ /*var todaydate = new Date();
  var month = todaydate.getMonth() + 1;
  var day = todaydate.getDate();
  var year = todaydate.getFullYear();
@@ -6,6 +6,12 @@
  window.onload = function(){
  //document.getElementById("date").value = todaydate;
   document.getElementById("date").innerHTML = "Today is " + todaydate;
- }
+ }*/
+window.onload = displayClock();
+function displayClock(){
+  var display = new Date().toLocaleTimeString();
+  .getElementById("date").innerHTML = "Today is " + display;
+  setTimeout(displayClock, 1000); 
+}
 
 
