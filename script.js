@@ -10,7 +10,7 @@
 window.onload = displayClock();
 function displayClock(){
   var display = new Date().toLocaleTimeString();
-  .getElementById("date").innerHTML = "Today is " + display;
+  document.getElementById("date").innerHTML = "Today is " + display;
   setTimeout(displayClock, 1000); 
 }
 
