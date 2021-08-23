@@ -14,7 +14,7 @@ function displayClock(){
   setTimeout(displayClock, 1000); 
 }
 
-window.onload = displayStaticClock();
+window.onload = displayClock();
 
 
 
